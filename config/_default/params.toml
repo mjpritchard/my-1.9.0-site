@@ -1,0 +1,234 @@
+[main]
+    separator = "-"
+    description = "Help documentation for JASMIN, the UK's environmental data analysis facility"
+    enableDarkMode = true
+    enableLanguageSelectionStorage = false
+    modes = ["light", "dark"]
+    canonifyAssetsURLs = false
+    footerBelowFold = true
+    loading = "lazy"
+    titleCase = true
+    [main.padding]
+        x = 4
+        y = 5
+    [main.externalLinks]
+        cue = true
+        tab = true
+    #[main.build]
+    #    transpiler = "dartsass"
+    #    silenceDeprecations = true
+    #endorse = true
+    #breakpoint = "md"
+    [main.build]
+        transpiler = "libsass"
+
+[debugging]
+    showJS = false
+    showSCSS = false
+    purgeHTMLComments = true
+
+[docs]
+    #basePath = "_vendor/github.com/gethinode/hinode"
+    github = "https://github.com/cedadev/jasmin-help-hugo-hinode"
+    #release = "https://github.com/gethinode/hinode/releases/tag/"
+
+[home]
+    sections = ["docs", "guides", "training"]
+    fullCover = false
+    centerHeadline = false
+    style = "" # "gradient-featured"
+    #[home.feature] # new
+    #    orientation = "stacked"
+    #    color = ""
+    #    width = 6
+    #    align = "start"
+
+[navigation]
+    anchor = true
+    logo = "/img/logos/jasmin-logo.svg" # store -light and -dark variants "/img/logo_var.svg#logo"
+    logo-height = 40 # now a built-in param (changed name) to control size of logo in layouts/partials/assets/navbar.html
+    color = "success"
+    fixed = true
+    #offset = "5em"
+    search = true
+    searchModal = true
+    breadcrumb = true
+    toc = true
+    sidebar = true
+    size = "md"
+
+[messages]
+    placement = "bottom-right"
+
+[sharing]
+    enabled = true
+    sort = "weight"
+    reverse = false
+    webshare = true
+    download = true
+
+[[sharing.providers]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/sharing/share-offsite/?url={url}"
+    icon = "fab linkedin"
+    weight = 10
+
+[[sharing.providers]]
+    name = "Facebook"
+    url = "https://www.facebook.com/sharer.php?u={url}"
+    icon = "fab facebook"
+    weight = 20
+
+[[sharing.providers]]
+    name = "WhatsApp"
+    url = "whatsapp://send?text={title}%20{url}"
+    icon = "fab whatsapp"
+    weight = 30
+
+[[sharing.providers]]
+    name = "link"
+    url = "{url}"
+    icon = "fas link"
+    weight = 50
+    clipboard = true
+
+[[sharing.providers]]
+    name = "custom link"
+    url = "[{title}]({url})"
+    icon = "fas star"
+    title = "custom link"
+    weight = 60
+    clipboard = true
+
+[favicon]
+    logo = "img/favicon.png"
+    #sizes = [16, 32, 48]
+
+
+
+[style]
+    #blue = "#007bff"
+    #indigo = "#6610f2"
+    #purple = "#6f42c1"
+    #pink = "#e83e8c"
+    #red = "#dc3545"
+    #yellow = "#ffc107"
+    #orange = "#fd7e14"
+    #green = "#28a745"
+    #teal = "#20c997"
+    #cyan = "#17a2b8"
+    #gray = "#95a5a6"
+    #white = "#fff"
+    #gray-dark = "#343a40"
+    #gray-100: "#f8f9fa"
+    #gray-200: "#ecf0f1"
+    #gray-300: "#dee2e6"
+    #gray-400: "#ced4da"
+    #gray-500: "#b4bcc2"
+    #gray-600: "#95a5a6"
+    #gray-700: "#7b8a8b"
+    #gray-800: "#343a40"
+    #gray-900: "#212529"
+    primary = "#003088"
+    secondary = "#3E863E"
+    success = "#67C04D"
+    info = "#1E5DF8"
+    warning = "#FF6900"
+    danger = "#A91B2E"
+    light = "#ced4da"
+    dark = "#dee2e6" #2E2D62"
+    themeOpacity = "10"
+    darkModeShade = "20%"
+    darkModeTint = "40%"
+    themeFont = "BoosterNextFY-Regular"
+    #themeFontPath = "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" # external path
+    themeFontPath = "/fonts" # local path
+    fontSizeBase = "1rem"
+    #purge = false
+
+[schema]
+    type = "Organization"
+    name = "JASMIN"
+    locale = "en-GB"
+    github = "https://github.com/cedadev"
+    #section = "docs"
+    [schema.author]
+        name = "Matt Pritchard"
+    [schema.logo]
+        url = "img/logos/jasmin-logo-small-green.png?source=schema.logo"
+        #width = 512
+        #height = 512
+    [schema.image]
+        url = "img/logos/jasmin-logo-small-green.png?source=schema.image"
+        #width = 1280
+        #height = 640
+
+[opengraph]
+    images = ["img/logos/jasmin-logo-small-green.png?source=opengraph"]
+    locale = "en_GB"
+
+[comments]
+    enabled = false
+    repo = "cedadev/jasmin-help-hugo-hinode" # Replace with your repository.
+    #issueTerm = "pathname" # pathname, url, title, og:title
+    #label = "comment"
+    # By default, light and dark mode correspond to github-light and github-dark, respectively.
+    # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
+    #theme = "" 
+
+[links]
+    bs_badge_heading = "https://getbootstrap.com/docs/5.2/components/badge/#headings"
+    hinode_docs = "https://gethinode.com/docs"
+    hugo_imaging = "https://gohugo.io/content-management/image-processing/#imaging-configuration"
+    mozilla_image = "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"
+    observatory = "https://observatory.mozilla.org/analyze/demo.gethinode.com"
+    pagespeed = "https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethinode.com%2F"
+    utterances = "https://utteranc.es"
+    hugo = "https://gohugo.io"
+    # curated local links
+    ceda_site = "https://www.ceda.ac.uk"
+    ceda_archive = "https://archive.ceda.ac.uk"
+    ceda_catalogue = "https://catalogue.ceda.ac.uk"
+    ceda_helpdocs = "https://help.ceda.ac.uk"
+    ceda_helpdesk = "https://help.ceda.ac.uk"
+    ceda_status = "https://www.ceda.ac.uk/status"
+    ceda_news = "https://www.ceda.ac.uk/news"
+    ceda_events = "https://www.ceda.ac.uk/events"
+    ceda_data = "https://data.ceda.ac.uk"
+    ceda_x = "https://twitter.com/cedanews"
+    nceo = "https://www.nceo.ac.uk"
+    ncas = "https://www.ncas.ac.uk"
+    jasmin = "https://www.jasmin.ac.uk"
+    stfc = "https://stfc.ukri.org"
+    nerc = "https://nerc.ukri.org"
+    ukri = "https://ukri.org"
+    jasmin_site = "https://www.jasmin.ac.uk"
+    jasmin_accounts_portal = "https://accounts.jasmin.ac.uk"
+    jasmin_cloud_portal = "https://cloud.jasmin.ac.uk"
+    jasmin_projects_portal = "https://projects.jasmin.ac.uk"
+    jasmin_object_store_portal = "https://s3-portal.jasmin.ac.uk/"
+    jasmin_notebooks_service = "https://notebooks.jasmin.ac.uk"
+    jasmin_community_discussions = "https://github.com/cedadev/jasmin-community/discussions"
+    jasmin_help_docs_issues = "https://github.com/cedadev/jasmin-help-hugo-hinode/issues"
+
+
+[statusClasses]
+    "down" = "danger"
+    "normal" = "success"
+    "degraded" = "warning"
+    "at risk" = "dark"
+
+[statusData]
+    # URL for publicly-shared CSV view of Google Sheet with CEDA status updates
+    "sourceURL" = "https://raw.githubusercontent.com/cedadev/ceda-status/main/status.json"
+
+[beacon]
+    html = "<p>Beacon</p><script src=\"/static/js/beacon.js\" type=\"text/javascript\">"
+
+[videos]
+    [videos.youtube]
+        host = "youtube"
+
+#[modules.cookieyes]
+    #url = "https://cdn-cookieyes.com/client_data/NNNN/script.js" # need client ID?
+    #local = false

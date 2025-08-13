@@ -1,0 +1,55 @@
+@import url("//hello.myfonts.net/count/36e149");
+/* @import must be at top of file, otherwise CSS will not work */
+
+@font-face {
+    font-family: 'BoosterNextFY-Thin';
+    src:    url('/fonts/webfonts/36E149_0_0.eot');
+    src:    url('/fonts/webfonts/36E149_0_0.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/webfonts/36E149_0_0.woff2') format('woff2'),url('/fonts/webfonts/36E149_0_0.woff') format('woff'),
+            url('/fonts/webfonts/36E149_0_0.ttf') format('truetype');
+}
+ 
+@font-face {
+    font-family: 'BoosterNextFY-Regular';
+    src:    url('/fonts/webfonts/36E149_1_0.eot');
+    src:    url('/fonts/webfonts/36E149_1_0.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/webfonts/36E149_1_0.woff2') format('woff2'),
+            url('/fonts/webfonts/36E149_1_0.woff') format('woff'),
+            url('/fonts/webfonts/36E149_1_0.ttf') format('truetype');
+}
+ 
+@font-face {
+    font-family: 'BoosterNextFY-Medium';
+    src:    url('/fonts/webfonts/36E149_2_0.eot');
+    src:    url('/fonts/webfonts/36E149_2_0.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/webfonts/36E149_2_0.woff2') format('woff2'),
+            url('/fonts/webfonts/36E149_2_0.woff') format('woff'),
+            url('/fonts/webfonts/36E149_2_0.ttf') format('truetype');
+}
+  
+@font-face {
+    font-family: 'BoosterNextFY-Black';
+    src:    url('/fonts/webfonts/36E149_3_0.eot');
+    src:    url('/fonts/webfonts/36E149_3_0.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/webfonts/36E149_3_0.woff2') format('woff2'),
+            url('/fonts/webfonts/36E149_3_0.woff') format('woff'),
+            url('/fonts/webfonts/36E149_3_0.ttf') format('truetype');
+    }
+ 
+@font-face {
+    font-family: 'BoosterNextFY-Light';
+    src:    url('/fonts/webfonts/36E149_4_0.eot');
+    src:    url('/fonts/webfonts/36E149_4_0.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/webfonts/36E149_4_0.woff2') format('woff2'),
+            url('/fonts/webfonts/36E149_4_0.woff') format('woff'),
+            url('/fonts/webfonts/36E149_4_0.ttf') format('truetype');
+}
+ 
+@font-face {
+    font-family: 'BoosterNextFY-Bold';
+    src:    url('/fonts/webfonts/36E149_5_0.eot');
+    src:    url('/fonts/webfonts/36E149_5_0.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/webfonts/36E149_5_0.woff2') format('woff2'),
+            url('/fonts/webfonts/36E149_5_0.woff') format('woff'),
+            url('/fonts/webfonts/36E149_5_0.ttf') format('truetype');
+}

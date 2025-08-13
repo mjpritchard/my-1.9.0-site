@@ -1,0 +1,13 @@
+# this file holds all menu entries for the docs sidebar
+
+- title: Getting started
+  pages:
+    - title: beginners training workshop
+
+
+- title: Uncategorized
+  pages:
+    - title: working with many linux groups
+
+- title: Something else
+  link: https://example.com
