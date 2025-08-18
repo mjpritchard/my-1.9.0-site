@@ -56,6 +56,10 @@
     toc = true
     sidebar = true
     size = "md"
+    # TOC options new with v1.10.0
+    #startLevel = 2
+    #endLevel = 3
+    #maxNumHeadings = 4
 
 [messages]
     placement = "bottom-right"
