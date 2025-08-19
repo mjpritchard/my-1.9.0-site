@@ -1,8 +1,11 @@
 ---
-author: Matt Pritchard
+description: Articles that we should probably recategorize...
 title: Uncategorized
-description: unc.
+weight: 110
+slug: uncategorized
 icon: fas circle-info
+aliases: /category/61-uncategorized
+
 content_blocks:
 
   - _bookshop_name: articles
@@ -17,11 +20,11 @@ content_blocks:
     header-style: none
     more:
       title: More docs
-    padding: 0
+    padding: 3
     limit: 99
-    background:
-      color: primary
-      subtle: true
+    #background:
+    #  color: primary
+    #  subtle: true
     class: border-1 card-zoom card-body-margin
     justify: start
 ---
