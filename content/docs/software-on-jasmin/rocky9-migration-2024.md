@@ -233,19 +233,22 @@ GNU compilers | 7.2.0 ,8.1.0,  8.2.0<br>13.2.0 conda-forge (12.1.0 from legacy J
 JULES <br>**see Note 4**| | Information to follow
 {.table .table-striped .w-auto}
 
-#### Notes
+**Notes:** 
 
-1. **IDL:**
+1. **IDL**
+
    1. IDL versions 8.9 and 9.1 are now available on the Rocky 9 sci servers.
    1. These will also be the versions available on the new cluster, which will be announced in early 2025.
    1. Licensing is now in place to enable use of these versions on Rocky 9 servers, in runtime or interactive mode.
    1. For the limited remaining time that the existing LOTUS cluster is available (with CentOS7 nodes), 8.5 is the default with other legacy versions still available on those nodes.
 
-2. **Cylc:** Note that Cylc 8 differs from Cylc 7 in many ways: architecture, scheduling algorithm, security, UIs, working practices and more. The Cylc 8 web UI requires the use of a browser (e.g. Firefox in the NoMachine desktop service)
+2. **Cylc**
 
-3. **MPI:** (further details to follow)
+Note that Cylc 8 differs from Cylc 7 in many ways: architecture, scheduling algorithm, security, UIs, working practices and more. The Cylc 8 web UI requires the use of a browser (e.g. Firefox in the NoMachine desktop service)
 
-4. **JULES:** (further details to follow)
+3. **MPI** (further details to follow)
+
+4. **JULES** (further details to follow)
 
 ### Upgraded LOTUS cluster
 
