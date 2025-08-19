@@ -17,8 +17,9 @@ content_blocks:
     header-style: none
     more:
       title: More docs
+      link: /docs
     padding: 3
-    limit: 3
+    limit: 12
     #background:
     #  color: primary
     #  subtle: true

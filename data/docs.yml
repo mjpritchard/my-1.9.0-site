@@ -1,13 +1,154 @@
 # this file holds all menu entries for the docs sidebar
 
-- title: Getting started
+- title: getting started
   pages:
+    - title: get started with jasmin
+    - title: generate ssh key pair
+    - title: get jasmin portal account
+    - title: get login account
     - title: beginners training workshop
+    - title: how to contact us about jasmin issues
+    - title: jasmin status
+    - title: jasmin training accounts
+    - title: tips for new users
+    - title: how to login
+    - title: multiple account types
+    - title: present ssh key
+    - title: reconfirm email address
+    - title: reset jasmin account password
+    - title: ssh auth
+    - title: storage
+    - title: understanding new jasmin storage
+    - title: update a jasmin account
 
-
-- title: Uncategorized
+- title: interactive computing
   pages:
-    - title: working with many linux groups
+    - title: interactive computing overview   
+    - title: login servers
+    - title: login problems    
+    - title: graphical linux desktop access using nx
+    - title: sci servers
+    - title: transfer servers
+    - title: jasmin notebooks service
+    - title: jasmin notebooks service with gpus
+    - title: creating a virtual environment in the notebooks service
+    - title: project specific servers
+    - title: dask gateway
+    - title: access from vscode
 
-- title: Something else
-  link: https://example.com
+- title: batch computing
+  pages:
+    - title: lotus overview
+    - title: slurm scheduler overview
+    - title: slurm queues
+    - title: lotus cluster specification
+    - title: how to monitor slurm jobs
+    - title: how to submit a job
+    - title: how to submit an mpi parallel job
+    - title: example job 2 calc md5s
+    - title: orchid gpu cluster
+    - title: slurm status
+    - title: slurm quick reference
+
+- title: software on jasmin
+  pages: 
+    - title: software overview
+    - title: quickstart software envs
+    - title: python virtual environments
+    - title: additional software
+    - title: community software esmvaltool
+    - title: community software checksit
+    - title: compiling and linking
+    - title: conda environments and python virtual environments
+    - title: conda removal
+    - title: creating and using miniforge environments
+    - title: idl
+    - title: jasmin sci software environment
+    - title: jasmin software faqs
+    - title: jaspy envs
+    - title: matplotlib
+    - title: nag library
+    - title: name dispersion model
+    - title: geocat replaces ncl
+    - title: postgres databases on request
+    - title: running python on jasmin
+    - title: running r on jasmin
+    - title: rocky9 migration 2024
+    - title: share software envs
+
+- title: data transfer
+  pages:
+    - title: data transfer overview
+    - title: data transfer tools
+    - title: globus transfers with jasmin
+    - title: bbcp
+    - title: ftp and lftp
+    - title: globus command line interface
+    - title: globus connect personal
+    - title: gridftp ssh auth
+    - title: rclone
+    - title: rsync scp sftp
+    - title: scheduling automating transfers
+    - title: transfers from archer2
+
+- title: short term project storage
+  pages:
+    - title: apply for access to a gws
+    - title: elastic tape command line interface hints
+    - title: faqs storage
+    - title: gws etiquette
+    - title: gws scanner ui
+    - title: gws scanner
+    - title: gws alert system
+    - title: install xfc client
+    - title: xfc
+    - title: introduction to group workspaces
+    - title: jdma
+    - title: managing a gws
+    - title: nlds
+    - title: secondary copy using elastic tape
+    - title: share gws data on jasmin
+    - title: share gws data via http
+    - title: using the jasmin object store
+    - title: configuring cors for object storage
+
+- title: long term archive storage
+  pages:
+    - title: ceda archive
+
+- title: mass
+  pages:
+    - title: external access to mass faq
+    - title: how to apply for mass access
+    - title: moose the mass client user guide
+    - title: setting up your jasmin account for access to mass
+
+- title: for cloud tenants
+  pages:
+    - title: introduction to the jasmin cloud
+    - title: jasmin cloud portal
+    - title: cluster as a service
+    - title: cluster as a service kubernetes
+    - title: cluster as a service identity manager
+    - title: cluster as a service slurm
+    - title: cluster as a service pangeo
+    - title: cluster as a service shared storage
+    - title: adding and removing ssh keys from an external cloud vm
+    - title: provisioning tenancy sci vm managed cloud
+    - title: sysadmin guidance external cloud
+    - title: best practice
+
+- title: workflow management
+  pages:
+    - title: rose cylc on jasmin
+    - title: using cron
+
+- title: uncategorized
+  pages:
+    - title: mobaxterm
+    - title: requesting resources
+    - title: processing requests for resources
+    - title: acknowledging jasmin
+    - title: approving requests for access
+    - title: working with many linux groups
+    - title: jasmin conditions of use

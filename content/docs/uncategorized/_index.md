@@ -18,7 +18,7 @@ content_blocks:
     more:
       title: More docs
     padding: 0
-    limit: 3
+    limit: 99
     background:
       color: primary
       subtle: true
