@@ -3455,7 +3455,30 @@ JASMIN whilst some need to install their own tools for a particular purpose.&lt;
 &lt;p>When provisioned, a virtual machine gets allocated a small hard disk (the
 exact size of the disk depends on the selected machine size). This disk is
 intended to run the operating system only. If you require additional storage
-for data, it is possible to add extra volumes to a virtual machine.&lt;/p></description></item><item><title>The "jasmin-sci" software environment</title><link>https://help.jasmin.ac.uk/docs/software-on-jasmin/jasmin-sci-software-environment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://help.jasmin.ac.uk/docs/software-on-jasmin/jasmin-sci-software-environment/</guid><description>&lt;h2 id="introduction" class="heading">Introduction&lt;a href="#introduction" aria-labelledby="introduction">
+for data, it is possible to add extra volumes to a virtual machine.&lt;/p></description></item><item><title>Test doc</title><link>https://help.jasmin.ac.uk/docs/uncategorized/test-doc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://help.jasmin.ac.uk/docs/uncategorized/test-doc/</guid><description>&lt;p>Test page showing additional features.
+Notes:&lt;/p>
+&lt;ul>
+&lt;li>optional modules need to be listed in frontmatter&lt;/li>
+&lt;li>&lt;code>markdownlint-disable&lt;/code> wrappers for shortcodes&lt;/li>
+&lt;/ul>
+
+
+
+
+&lt;h2 id="animation" class="heading">Animation&lt;a href="#animation" aria-labelledby="animation">
+
+
+
+
+
+
+
+
+&lt;!-- &lt;i class="fas fa-link anchor">&lt;/i> -->
+ &lt;svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 640 512">&lt;use href="#fas-link">&lt;/use>&lt;/svg>&amp;nbsp;
+ &lt;/a>
+&lt;/h2>
+&lt;p>As an example, the following shortcode shows an animation that plays on hover.&lt;/p></description></item><item><title>The "jasmin-sci" software environment</title><link>https://help.jasmin.ac.uk/docs/software-on-jasmin/jasmin-sci-software-environment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://help.jasmin.ac.uk/docs/software-on-jasmin/jasmin-sci-software-environment/</guid><description>&lt;h2 id="introduction" class="heading">Introduction&lt;a href="#introduction" aria-labelledby="introduction">
 
 
 
