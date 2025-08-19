@@ -1,7 +1,7 @@
 ---
 author: Matt Pritchard
 title: Getting Started
-description: basics.
+description: Key things to know to get you started on JASMIN.
 icon: fas play
 
 content_blocks:
