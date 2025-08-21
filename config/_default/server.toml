@@ -3,7 +3,8 @@
 
   [headers.values]
     Access-Control-Allow-Origin = '*'
-    Content-Security-Policy = """
+    Content-Security-Policy = """"""
+    blah="""
         base-uri 'self'; \
         connect-src 'self' *.analytics.google.com *.google.com *.google-analytics.com *.googletagmanager.com d3hb14vkzrxvla.cloudfront.net beaconapi.helpscout.net; \
         default-src 'none'; \
