@@ -242,4 +242,8 @@
     login-redirect = "/"
     logout-redirect = "/login/"
     timeout-redirect = "/login/"
-  
+    [modules.hanko.csp]
+        connect-src = [
+            "cf469242-74d0-47bc-964d-c4a32cadc110.hanko.io"
+        ]
+    
