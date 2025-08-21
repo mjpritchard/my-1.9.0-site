@@ -236,3 +236,10 @@
 #[modules.cookieyes]
     #url = "https://cdn-cookieyes.com/client_data/NNNN/script.js" # need client ID?
     #local = false
+
+[modules.hanko]
+    endpoint = "https://cf469242-74d0-47bc-964d-c4a32cadc110.hanko.io"
+    login-redirect = "/"
+    logout-redirect = "/login/"
+    timeout-redirect = "/login/"
+  
